@@ -1,69 +1,35 @@
-# Memory Game
+# Star Wars Memory Game
+Aplicacion #5 en Android nativo con Kotlin para el reto mensual de aplicaciones organizado por [MoureDev](https://github.com/mouredev) y [Rviewer](https://rviewer.io/)
 
-Who hasn't played card games at some point? From a very young age to a beer night with friends, right?
+![StarWarsMemoryGame](https://raw.githubusercontent.com/davidthar/StarWarsMemory/master/Post%20Twitter.png)
 
-Well, for this Challenge you will have to choose your favourite theme and recreate
-the [famous game](https://en.wikipedia.org/wiki/Concentration_(card_game)).
+![GitHub Followers](https://img.shields.io/github/followers/davidthar?style=social)
 
-![Brais Moure Challenge card](moure_memory-game.png)
+## Tecnologías usadas
+* Android nativo con Kotlin
+* Arquitectura MVVM
 
-> This is a challenge created by [MoureDev](https://www.twitch.tv/mouredev). He will review and give feedback to some
-> proposed solutions from the community in one of his Twitch livestreams 😻 
+## Descarga de la aplicación
+Puedes descargar la aplicación en formato .apk desde [aquí](https://github.com/davidthar/StarWarsMemory/releases/download/1.0/StarWarsMemoryGame.apk)
 
-**Surprise us! 😉**
+## Información sobre el reto
+* Puedes encontrar más información sobre el reto en el repositorio de [Mouredev](https://github.com/mouredev/Monthly-App-Challenge-2022) y en [Rviewer](https://go.rviewer.io/dev-memory-game/)
 
-## How it works?
+## Instrucciones para el reto:
 
-The requirements for the game are pretty simple. First, you have to choose whatever theme you want to, like
-Pokémon, Star Wars or even Peppa Pig!
+**[RVIEWER](https://rviewer.io/) se une a los retos mensuales de la comunidad para dar feedback profesional de cada reto y así mejorar nuestras habilidades.**
 
-The dynamics of the game will consist of presenting a board with a series of face-down cards and revealing all the pairs
-before the time is up. The user will tap on each card to turn it over and, if two of them match when they are uncovered,
-they will be turned face up. If not, they will be hidden again.
 
-**The game is won if all pairs are uncovered within the time limit.**
+**MEMORY GAME:** Crea un "memograma" o "juego de memoria" basado en parejas de cartas.
 
-So, the game will have an initial screen to select one of the three difficulties and 1 minute to solve each board:
+**NOTA:** Para la revisión en directo desde Twitch se agradece crear un readme con un enlace de descarga o ejecución de la app. Gracias!
 
-* Easy: 4x4 board
-* Medium: 4x6 board (or 6x4 depending on the screen)
-* Difficult: 5x6 board (or 6x5 depending on screen)
+¿Quién no ha jugado alguna vez a las parejas de cartas? Desde bien pequeños hasta alguna noche de fiesta, ¿cierto? Bien, para este reto deberás elegir tu temática favorita y recrear el [famoso juego](https://es.wikipedia.org/wiki/Memoria_(juego)). Sorpréndenos! 😉
 
-The application will have a main game screen that contains the following elements:
+**¿En qué consiste el reto?**
 
-* Game board. The board where the user will play and see the cards.
-* Move counter. Every time 2 cards are turned over it will increase by 1, whether you hit or not.
-* Time counter. A 1-min countdown to reveal all pairs!
-* Remaining pairs counter.
-* A button to return to the level selection screen.
+*Los requisitos del juego son bastante sencillos. En primer lugar, tienes que elegir la temática que quieras, como Pokémon, Star Wars o incluso Peppa Pig.*
 
-## Technical requirements
+*La dinámica del juego consistirá en presentar un tablero con una serie de cartas boca abajo y revelar todas las parejas antes de que se acabe el tiempo. El usuario tocará cada carta para darle la vuelta y, si dos de ellas coinciden al descubrirlas, se pondrán boca arriba. En caso contrario, se volverán a ocultar.*
 
-* Create a **clean**, **maintainable** and **well-designed** code. We expect to see a good and clear architecture that
-  allows to add or modify the solution without so much troubles.
-* **Test** your code until you are comfortable with it. We don't expect a 100% of Code Coverage but some tests that
-  helps to have a more stable and confident base code.
-
-To understand how you take decisions during the implementation, **please write a COMMENTS.md** file explaining some of
-the most important parts of the application. You would also be able to defend your code through
-[Rviewer](https://rviewer.io), once you submit your solution.
-
----
-
-## How to submit your solution
-
-* Push your code to the `devel` branch - we encourage you to commit regularly to show your thinking process was.
-* **Create a new Pull Request** to `main` branch & **merge it**.
-
-Once merged you **won't be able to change or add** anything to your solution, so double-check that everything is as you
-expected!
-
-Remember that **there is no countdown**, so take your time and implement a solution that you are proud!
-
---- 
-
-<p align="center">
-  If you have any feedback or problem, <a href="mailto:help@rviewer.io">let us know!</a> 🤘
-  <br><br>
-  Made with ❤️ by <a href="https://rviewer.io">Rviewer</a>
-</p>
+*El juego se gana si se descubren todas las parejas dentro del límite de tiempo.*
